@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     latestPrices[coin] = null; // Clear after update
                 }
             }
-        }, 500);
+        }, 1000);
     }
 
     function stopUIThrottle() {

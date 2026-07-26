@@ -412,11 +412,11 @@ body {
 }
 
 .flash-up {
-  animation: flashGreen 0.5s step-end forwards;
+  animation: flashGreen 1s step-end forwards;
 }
 
 .flash-down {
-  animation: flashRed 0.5s step-end forwards;
+  animation: flashRed 1s step-end forwards;
 }
 
 
