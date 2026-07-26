@@ -3,9 +3,14 @@
     {
       "src": "Source/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "Assets/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
+    { "src": "/Assets/(.*)", "dest": "/Assets/$1" },
     { "src": "/(.*)", "dest": "/Source/$1" }
   ]
 }
