@@ -193,12 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (oldPriceRaw !== undefined) {
              directionClass = currentPrice > oldPriceRaw ? 'flash-up' : 'flash-down';
              
-             const card = el.closest('.coin-item');
-             if (card) {
-                 card.classList.remove('card-flash-up', 'card-flash-down');
-                 void card.offsetWidth; // Trigger browser reflow to restart animation
-                 card.classList.add(directionClass === 'flash-up' ? 'card-flash-up' : 'card-flash-down');
-             }
         }
 
         let diffIndex = 0;
