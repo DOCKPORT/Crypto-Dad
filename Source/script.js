@@ -165,10 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
             let colorClass = '';
             
             if (numVal > 0) {
-                symbol = '▲';
+                symbol = '↑';
                 colorClass = 'change-up';
             } else if (numVal < 0) {
-                symbol = '▼';
+                symbol = '↓';
                 colorClass = 'change-down';
             } else {
                 symbol = '●';
