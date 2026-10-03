@@ -1,6 +1,5 @@
-# Crypto-Dad Live Stream Intro
-
-![Screenshot](Assets/Screenshot_2026-07-26_00-40-36.png)
+# Crypto-Dad Live Stream
+![Screenshot](Assets/view.png)
 
 Live stream landing page for **The Crypto Dad** — featuring real-time cryptocurrency price tickers, a stream countdown timer, and social links.
 
